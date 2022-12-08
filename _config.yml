@@ -1,6 +1,6 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Happy Prime'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -10,15 +10,16 @@ logo:
   desktop_height: "32px"
   desktop_width: "120px"
 
+
 home: 
-  limit_services: 6
+  limit_services: 0
 
 collections:
   services:
-    output: true
+    output: false
     sort_by: weight
   team:
-    output: true
+    output: false
 
 defaults:
   - scope:
